@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@300;400;500;600;800&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Changa:wght@300;400;500;600;800&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madrid Calculator</title>
+</head>
+<body>
+    <div id="preLoader"></div>
+    <header>
+            <h1 class="logo"><i class="fa-solid fa-crown"></i> HALA MADRID <i class="fa-solid fa-crown"></i></h1>
+            <i class="fa-solid fa-bars theI" id="special"></i>
+        <nav>
+            
+            <ul id="ulLinks"> 
+                <li><a class="active" href="#home"><i class="fa-solid fa-house"></i> Home</a></li>
+                <li><a href="#Calculator"><i class="fa-solid fa-calculator"></i> Calculator</a></li>
+                <li><a href="#About"><i class="fa-solid fa-address-card"></i> About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="landing" id="home">
+        <div class="blacking"></div>
+        <div class="container">
+            <h1>Welcome Madridista</h1>
+            <p>
+                We are delighted to have you among us. On behalf of all the members and the management
+            </p>
+        </div>
+    </div>
+    <div class="calculator" id="Calculator">
+        <div class="blacking"></div>
+        <!-- <div class="herader">
+        <h2><i class="fa-solid fa-circle-down"></i>The Calculator<i class="fa-solid fa-circle-down"></i></h2>
+        </div> -->
+            <div class="container">
+                <div class="display"></div>
+                <div class="buttons">
+                    <button data-value="AC" class="operator">AC</button>
+                    <button data-value="DEL" class="operator">DEL</button>
+                    <button data-value="%" class="operator">%</button>
+                    <button data-value="/" class="operator">/</button>
+    
+    
+                    <button data-value="7">7</button>
+                    <button data-value="8">8</button>
+                    <button data-value="9">9</button>
+                    <button data-value="*" class="operator">*</button>
+    
+    
+                    <button data-value="4">4</button>
+                    <button data-value="5">5</button>
+                    <button data-value="6">6</button>
+                    <button data-value="-" class="operator">-</button>
+    
+    
+                    <button data-value="1">1</button>
+                    <button data-value="2">2</button>
+                    <button data-value="3">3</button>
+                    <button data-value="+" class="operator">+</button>
+    
+    
+                    <button data-value="0">0</button>
+                    <!-- <button data-value="00">00</button> -->
+                    <button data-value=".">.</button>
+                    <button data-value="(">(</button>
+                    <button data-value=")">)</button>
+    
+                    <button data-value="=" class="operator equal">=</button>
+                </div>
+                <div class="playerimges">
+                    <div class="animi"></div>
+                    <div class="animi1"></div>
+                    <h3>Player Image</h3>
+                    <img src="imges/Toni Kroos.jpg" alt="T.KROSS" id="kross">
+                    <img src="imges/Vinícius.jpg" alt="vini" id="vini">
+                    <img src="imges/Courtois.jpg" alt="COURTOIS" id="COURTOIS">
+                    <img src="imges/alaba.jpg" alt="alaba" id="alaba">
+                    <img src="imges/Rüdiger.jpg" alt="Rüdiger" id="Rüdiger">
+                    <img src="imges/Militão.jpg" alt="Militão" id="Militão">
+                    <img src="imges/carva.jpg" alt="carva" id="carva">
+                    <img src="imges/mendy.jpg" alt="mendy" id="mendy">
+                    <img src="imges/Luka Modrić.jpg" alt="Luka" id="Luka">
+                    <img src="imges/Camavinga.jpg" alt="Camavinga" id="Camavinga">
+                    <img src="imges/Fede Valverde.jpg" alt="Valverde" id="Valverde">
+                    <img src="imges/Tchouaméni.jpg" alt="Tchouaméni" id="Tchouaméni">
+                    <img src="imges/Rodrygo.jpg" alt="Rodrygo" id="Rodrygo">
+                    <img src="imges/champions.png" alt="champions" id="champions">
+                
+                </div>
+            </div>        
+        <div class="voic">
+            <audio id="sui" src="voic/suii.mp3"></audio>
+            <audio id="madridista" src="voic/madridista.mp3"></audio>
+            <audio id="COURTOISSound" src="voic/courtwoa.m4a"></audio>
+            <audio id="MilitãoSound" src="voic/militao.m4a"></audio>
+            <audio id="RüdigerSound" src="voic/rodeger.m4a"></audio>
+            <audio id="alabaSound" src="voic/alaba.m4a"></audio>
+            <audio id="carvaSound" src="voic/carvakhal.mp3"></audio>
+            <audio id="mendySound" src="voic/mendy.m4a"></audio>
+            <audio id="LukaSound" src="voic/L-modric.m4a"></audio>
+            <audio id="krossSound" src="voic/kross.m4a"></audio>
+            <audio id="ValverdeSound" src="voic/valverdi.m4a"></audio>
+            <audio id="TchouaméniSound" src="voic/tchoumeni.m4a"></audio>
+            <audio id="CamavingaSound" src="voic/camavinga.m4a"></audio>
+            <audio id="viniSound" src="voic/vini.m4a"></audio>
+            <audio id="RodrygoSound" src="voic/rodrego.m4a"></audio>
+        </div>
+
+    </div>
+    <div class="aboutProject" id="About">
+        <div class="blacking"></div>
+        <div class="container">
+            <h1>عن المشروع</h1>
+            <p>الموقع عبارة عن اله حاسبه شغاله بدون مشاكل لكن لما تعمل عملية حسابية عليها اذا تساوى الناتج مع رقم احد لاعبى ريال مدريد هيشتغل اوتوماتيكيا صوت معلق يقول اسمه وهيظهر صورت اللاعب لكن مش كل اللاعبين </p>
+            <p>اللعيبه اللى موجوده فى الموقع:</p>
+            <div class="AVAILABLE">
+                <p>Vinícius Jr(7)</p>
+                <p>Rodrygo(11)</p>
+                <p>L.Modrić (10)</p>
+                <p>T.Kroos(8)</p>
+                <p>F.Valverde(15)</p>
+                <p>A.Tchouaméni(18)</p>
+                <p>E.Camavinga(12)</p>
+                <p>Éder Militão(3)</p>
+                <p>A.Rüdiger(22)</p>
+                <p>David Alaba(4)</p>
+                <p>Carvajal(2)</p>
+                <p>F.Mendy(23)</p>
+                <p>T.Courtois(1)</p>
+            </div>
+            <p>اللغات المستخدمة فى المشروع:</p>
+            <P class="lang">HTML <i class="fa-brands fa-html5"></i>,  CSS <i class="fa-brands fa-css3-alt"></i>  , JAVA SCRIPT <i class="fa-brands fa-js"></i></P>
+            <p>تم التصيم بواسطة <a target="_blank" href="https://api.whatsapp.com/send/?phone=201015405904">Noyan</a></p>
+
+        </div>
+    </div>
+    <footer>
+        <a target="_blank" href="https://api.whatsapp.com/send/?phone=201015405904" class="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+        <a target="_blank" href="https://www.facebook.com/profile.php?id=100085405390256&mibextid=ZbWKwL" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+        <a target="_blank" href="http://t.me/Noyan_71" class="telegram"><i class="fa-brands fa-telegram"></i></a>
+        
+    </footer>
+    <script src="main.js">
+    </script>
+</body>
+</html>
